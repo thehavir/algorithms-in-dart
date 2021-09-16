@@ -1,5 +1,5 @@
-import 'package:flutter_test/flutter_test.dart';
 import 'package:algorithms_in_dart/data/dijkstra.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('Test dijkstra algorithm', () {

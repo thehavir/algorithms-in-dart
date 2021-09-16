@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:flutter_test/flutter_test.dart';
 import 'package:algorithms_in_dart/data/algorithm_euclidean.dart';
 import 'package:algorithms_in_dart/data/dynamic_programming.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('Test LongestSubsequence class', () {

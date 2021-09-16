@@ -18,6 +18,7 @@ class Node {
   String toString() => 'Node($name)';
 }
 
+/// A graph example from `Grokking Algorithm book`.
 class MangoGraph {
   static Node generateGraphUsingNodeClass() {
     final Node anuj = Node('Anuj');

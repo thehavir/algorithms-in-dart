@@ -1,7 +1,7 @@
 import 'dart:math';
 
-import 'package:flutter_test/flutter_test.dart';
 import 'package:algorithms_in_dart/data/k_nearest_neighbors.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('Test k-nearest neighbors', () {
@@ -72,8 +72,8 @@ void main() {
         // Sort distances map based on its values.
         final List<Map<List<int>, int>> sortedKeys = distances.keys
             .toList(growable: false)
-              ..sort((Map<List<int>, int> k1, Map<List<int>, int> k2) =>
-                  distances[k1]!.compareTo(distances[k2]!));
+          ..sort((Map<List<int>, int> k1, Map<List<int>, int> k2) =>
+              distances[k1]!.compareTo(distances[k2]!));
         final Map<Map<List<int>, int>, double> sortedDistances =
             Map<Map<List<int>, int>, double>.fromIterable(sortedKeys,
                 key: (dynamic k) => k, value: (dynamic k) => distances[k]!);
