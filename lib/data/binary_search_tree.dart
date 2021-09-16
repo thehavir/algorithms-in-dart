@@ -114,6 +114,7 @@ class BST {
     return root;
   }
 
+  /// Removes a node from the tree recursively.
   static Node? removeRecursively(Node item, Node? root) {
     // Return if tree is empty.
     if (root == null) {

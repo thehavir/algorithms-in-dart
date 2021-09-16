@@ -29,10 +29,10 @@ class EuclideanAlgorithm {
 
     if (debug) {
       print('GCD result ------');
-      print('dividend: $dividend');
-      print('divisor: $divisor');
-      print('quotient: $quotient');
-      print('end------');
+      print('Dividend: $dividend');
+      print('Divisor: $divisor');
+      print('Quotient: $quotient');
+      print('End------');
     }
 
     return findGCD(dividend: divisor, divisor: remainder);

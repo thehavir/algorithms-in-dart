@@ -1,6 +1,6 @@
+import 'package:algorithms_in_dart/data/greedy_set_covering_problem.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:algorithms_in_dart/data/greedy_set_covering_problem.dart';
 
 void main() {
   test('Test solving set-covering problem using greedy algorithm', () {

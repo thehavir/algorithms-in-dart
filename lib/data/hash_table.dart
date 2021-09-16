@@ -1,25 +1,23 @@
-import 'dart:collection';
-
+/// The default constructor of `Map` class in dart, returns a `HashMap` that it
+/// is a hash table.
 class Grocery {
-  final HashMap<String, int> fruitPriceList = HashMap<String, int>();
+  final Map<String, int> _fruitPriceList = <String, int>{};
 
-  void initializeHashMap() {
-    fruitPriceList['apple'] = 23000;
-    fruitPriceList['peach'] = 45000;
-    fruitPriceList['cherry'] = 30000;
-    fruitPriceList['pear'] = 38000;
-    fruitPriceList['melon'] = 10000;
-    fruitPriceList['cucumber'] = 12000;
+  void _initializeHashMap() {
+    _fruitPriceList['apple'] = 23000;
+    _fruitPriceList['peach'] = 45000;
+    _fruitPriceList['cherry'] = 30000;
+    _fruitPriceList['pear'] = 38000;
+    _fruitPriceList['melon'] = 10000;
+    _fruitPriceList['cucumber'] = 12000;
   }
 
-  int getFruitPrice(String fruit) {
-    return fruitPriceList[fruit] ?? 0;
-  }
+  int _getFruitPrice(String fruit) => _fruitPriceList[fruit] ?? 0;
 
-  void setFruitPrice({
+  void _setFruitPrice({
     required String fruit,
     required int price,
   }) {
-    fruitPriceList[fruit] = price;
+    _fruitPriceList[fruit] = price;
   }
 }
