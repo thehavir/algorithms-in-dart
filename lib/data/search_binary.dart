@@ -1,6 +1,6 @@
 /// Contains binary search method.
 class BinarySearch {
-  /// Binary search method. Search through a list and finds an item in O(logn).
+  /// Binary search method. Search through a list and finds an item in O(log n).
   /// It returns index of the item if it founds it, otherwise returns -1.
   static int binarySearch({
     required List<int> list,
