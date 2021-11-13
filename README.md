@@ -1,4 +1,4 @@
-# algorithms_in_dart
+# Algorithms in Dart
 
 Implementation of some most uses algorithms and data structures in dart.
 
